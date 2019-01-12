@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_to_fragmentImageFilter"
             app:destination="@id/fragmentImageFilter" />
+        <action
+            android:id="@+id/action_mainFragment_to_fragmentKeyFrames"
+            app:destination="@id/fragmentKeyFrames" />
     </fragment>
     <fragment
         android:id="@+id/left_right_motion"
@@ -30,4 +33,8 @@
         android:id="@+id/fragmentImageFilter"
         android:name="com.example.alex.motionlayoutsharing.FragmentImageFilter"
         android:label="FragmentImageFilter" />
+    <fragment
+        android:id="@+id/fragmentKeyFrames"
+        android:name="com.example.alex.motionlayoutsharing.FragmentKeyFrames"
+        android:label="FragmentKeyFrames" />
 </navigation>

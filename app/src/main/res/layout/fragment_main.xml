@@ -30,4 +30,14 @@
         app:layout_constraintEnd_toEndOf="@+id/btn_rotate_motion"
         app:layout_constraintStart_toStartOf="@+id/btn_rotate_motion"
         app:layout_constraintTop_toBottomOf="@+id/btn_rotate_motion" />
+
+    <Button
+        android:id="@+id/btn_key_frames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/key_frames"
+        app:layout_constraintEnd_toEndOf="@+id/btn_image_filter"
+        app:layout_constraintStart_toStartOf="@+id/btn_image_filter"
+        app:layout_constraintTop_toBottomOf="@+id/btn_image_filter" />
 </androidx.constraintlayout.widget.ConstraintLayout>
