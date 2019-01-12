@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.alex.motionlayoutsharing.coordinator.CoordinatorToolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/motionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"
+        android:minHeight="50dp"
+        app:layoutDescription="@xml/coordinator_with_motion"
+        app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed"
+        tools:showPaths="true">
+
+    <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorAccent"
+            android:scaleType="fitXY"
+            android:src="@drawable/header"/>
+
+    <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="InveritaSoft"
+            android:textColor="#FFF"
+            android:textSize="16dp"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp"/>
+
+    <TextView
+            android:id="@+id/sub_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android department"
+            android:textColor="#FFF"
+            android:textSize="16dp"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp"/>
+
+    <View
+            android:id="@+id/icon_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_background"/>
+
+    <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_account_circle"/>
+
+</com.example.alex.motionlayoutsharing.coordinator.CoordinatorToolbar>

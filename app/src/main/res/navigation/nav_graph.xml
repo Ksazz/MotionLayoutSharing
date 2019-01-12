@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_mainFragment_to_fragmentKeyFrames"
             app:destination="@id/fragmentKeyFrames" />
+        <action
+            android:id="@+id/action_mainFragment_to_fragmentCoordinatorMotion"
+            app:destination="@id/fragmentCoordinatorMotion" />
     </fragment>
     <fragment
         android:id="@+id/left_right_motion"
@@ -37,4 +40,8 @@
         android:id="@+id/fragmentKeyFrames"
         android:name="com.example.alex.motionlayoutsharing.FragmentKeyFrames"
         android:label="FragmentKeyFrames" />
+    <fragment
+        android:id="@+id/fragmentCoordinatorMotion"
+        android:name="com.example.alex.motionlayoutsharing.FragmentCoordinatorMotion"
+        android:label="FragmentCoordinatorMotion" />
 </navigation>

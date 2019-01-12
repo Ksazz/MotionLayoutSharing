@@ -4,6 +4,20 @@
     <string name="rotate_color_motion">rotate and color motion</string>
     <string name="image_filter">image filter</string>
     <string name="key_frames">key frames</string>
+    <string name="coordinator">coordinator</string>
 
+    <string name="collapsing_text">Jetpack is a collection of Android software components to make it easier for you to
+        develop great Android apps. These components help you follow best practices, free you from writing boilerplate
+        code, and simplify complex tasks, so you can focus on the code you care about.
+        Jetpack comprises the androidx.* package libraries, unbundled from the platform APIs. This means that it offers
+        backward compatibility and is updated more frequently than the Android platform, making sure you always have
+        access to the latest and greatest versions of the Jetpack components.
+        Jetpack is a collection of Android software components to make it easier for you to develop great Android apps.
+        These components help you follow best practices, free you from writing boilerplate code, and simplify complex
+        tasks, so you can focus on the code you care about.
+        Jetpack comprises the androidx.* package libraries, unbundled from the platform APIs. This means that it offers
+        backward compatibility and is updated more frequently than the Android platform, making sure you always have
+        access to the latest and greatest versions of the Jetpack components.
+    </string>
 
 </resources>
