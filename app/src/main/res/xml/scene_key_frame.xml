@@ -20,6 +20,13 @@
                 motion:percentY="0.5"
                 motion:target="@id/key_frame_image" />
 
+            <KeyAttribute
+                android:rotation="180"
+                android:scaleX="2"
+                android:scaleY="2"
+                motion:framePosition="50"
+                motion:target="@id/key_frame_image" />
+
             <KeyPosition
                 motion:framePosition="75"
                 motion:keyPositionType="pathRelative"
