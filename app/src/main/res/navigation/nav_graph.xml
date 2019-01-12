@@ -15,5 +15,5 @@
         android:id="@+id/left_right_motion"
         android:name="com.example.alex.motionlayoutsharing.FragmentSimpleMotion"
         android:label="fragment_left_right_motion"
-        tools:layout="@layout/fragment_left_right_motion" />
+        tools:layout="@layout/fragment_simple_motion" />
 </navigation>
