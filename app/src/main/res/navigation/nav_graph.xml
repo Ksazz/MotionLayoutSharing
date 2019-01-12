@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.alex.motionlayoutsharing.MainFragment"
+        android:label="MainFragment" >
+        <action android:id="@+id/action_mainFragment_to_left_right_motion" app:destination="@id/left_right_motion"/>
+    </fragment>
+    <fragment
+        android:id="@+id/left_right_motion"
+        android:name="com.example.alex.motionlayoutsharing.FragmentSimpleMotion"
+        android:label="fragment_left_right_motion"
+        tools:layout="@layout/fragment_left_right_motion" />
+</navigation>

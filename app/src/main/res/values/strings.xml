@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MotionLayoutSharing</string>
+    <string name="left_right_motion">simple motion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
