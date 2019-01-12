@@ -23,5 +23,7 @@ class MainFragment : Fragment() {
                 Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_left_right_motion))
         btn_rotate_motion.setOnClickListener(Navigation
                 .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentMotionRotateColour))
+        btn_image_filter.setOnClickListener(Navigation
+                .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentImageFilter))
     }
 }

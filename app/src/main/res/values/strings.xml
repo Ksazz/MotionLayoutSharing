@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MotionLayoutSharing</string>
     <string name="left_right_motion">simple motion</string>
-    <string name="rotate_color_motion">rotate motion</string>
-
+    <string name="rotate_color_motion">rotate and color motion</string>
+    <string name="image_filter">image filter</string>
 
 </resources>

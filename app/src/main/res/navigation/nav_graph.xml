@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_mainFragment_to_fragmentMotionRotateColour"
             app:destination="@id/fragmentMotionRotateColour" />
+        <action
+            android:id="@+id/action_mainFragment_to_fragmentImageFilter"
+            app:destination="@id/fragmentImageFilter" />
     </fragment>
     <fragment
         android:id="@+id/left_right_motion"
@@ -23,4 +26,8 @@
         android:id="@+id/fragmentMotionRotateColour"
         android:name="com.example.alex.motionlayoutsharing.FragmentMotionRotateColour"
         android:label="FragmentMotionRotateColour" />
+    <fragment
+        android:id="@+id/fragmentImageFilter"
+        android:name="com.example.alex.motionlayoutsharing.FragmentImageFilter"
+        android:label="FragmentImageFilter" />
 </navigation>
