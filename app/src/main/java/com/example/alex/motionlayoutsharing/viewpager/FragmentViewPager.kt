@@ -25,6 +25,7 @@ class FragmentViewPager : Fragment() {
     private fun setupViewPager() {
         rootView.apply {
             this.view_pager.adapter = ViewPagerAdapter(requireContext(), requireFragmentManager())
+            this.tab_layout.setupWithViewPager(this.view_pager)
             this.view_pager.currentItem = 0
             this.motionLayout.let {
                 this.view_pager.addOnPageChangeListener(it as ViewPager.OnPageChangeListener)
