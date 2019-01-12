@@ -42,5 +42,9 @@ class MainFragment : Fragment() {
             Navigation
                 .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentViewPager)
         )
+        btn_menu.setOnClickListener(
+            Navigation
+                .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentMenuMotion)
+        )
     }
 }

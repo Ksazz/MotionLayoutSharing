@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/motionView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene_menu_motion"
+        app:showPaths="true"
+        tools:context=".menumotion.FragmentMenuMotion">
+    <ImageView
+            android:id="@+id/motion_plus_view"
+            android:layout_width="@dimen/size_big_x"
+            android:layout_height="@dimen/size_big_x"
+            android:layout_marginBottom="@dimen/size_medium"
+            android:layout_marginRight="@dimen/size_medium"
+            android:elevation="2dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_plus_circle"/>
+
+    <ImageView
+            android:id="@+id/motion_item_one"
+            android:layout_width="@dimen/size_big_x"
+            android:layout_height="@dimen/size_big_x"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_star_circle"/>
+
+    <ImageView
+            android:id="@+id/motion_item_two"
+            android:layout_width="@dimen/size_big_x"
+            android:layout_height="@dimen/size_big_x"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_check_circle" tools:layout_editor_absoluteY="325dp"
+            tools:layout_editor_absoluteX="278dp"/>
+
+    <ImageView
+            android:id="@+id/motion_item_three"
+            android:layout_width="@dimen/size_big_x"
+            android:layout_height="@dimen/size_big_x"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_help_circle"/>
+
+
+    <View
+            android:id="@+id/top_view"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+            android:id="@+id/check_logo"
+            android:layout_width="@dimen/size_big_x"
+            android:layout_height="@dimen/size_big_x"
+            android:src="@drawable/ic_check"
+            app:layout_constraintBottom_toBottomOf="@id/top_view"
+            app:layout_constraintEnd_toEndOf="@id/top_view"
+            app:layout_constraintStart_toStartOf="@id/top_view"
+            app:layout_constraintTop_toTopOf="@id/top_view"/>
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

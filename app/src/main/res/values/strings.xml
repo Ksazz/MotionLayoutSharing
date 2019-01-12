@@ -6,6 +6,8 @@
     <string name="key_frames">key frames</string>
     <string name="coordinator">coordinator</string>
     <string name="pager">view pager</string>
+    <string name="menu">menu</string>
+
 
     <string name="pager_one_text">page one</string>
     <string name="pager_two_text">page two</string>

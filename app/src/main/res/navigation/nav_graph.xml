@@ -23,6 +23,7 @@
             android:id="@+id/action_mainFragment_to_fragmentCoordinatorMotion"
             app:destination="@id/fragmentCoordinatorMotion" />
         <action android:id="@+id/action_mainFragment_to_fragmentViewPager" app:destination="@id/fragmentViewPager"/>
+        <action android:id="@+id/action_mainFragment_to_fragmentMenuMotion" app:destination="@id/fragmentMenuMotion"/>
     </fragment>
     <fragment
         android:id="@+id/left_right_motion"
@@ -47,4 +48,7 @@
         android:label="FragmentCoordinatorMotion" />
     <fragment android:id="@+id/fragmentViewPager" android:name="com.example.alex.motionlayoutsharing.viewpager.FragmentViewPager"
               android:label="FragmentViewPager"/>
+    <fragment android:id="@+id/fragmentMenuMotion"
+              android:name="com.example.alex.motionlayoutsharing.menumotion.FragmentMenuMotion"
+              android:label="fragment_menu_motion" tools:layout="@layout/fragment_menu_motion"/>
 </navigation>
