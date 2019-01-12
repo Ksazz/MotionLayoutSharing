@@ -20,8 +20,8 @@ class MainFragment : Fragment() {
 
     private fun setListeners() {
         btn_simple_motion.setOnClickListener(
-                Navigation
-                        .createNavigateOnClickListener(R.id.action_mainFragment_to_left_right_motion)
-        )
+                Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_left_right_motion))
+        btn_rotate_motion.setOnClickListener(Navigation
+                .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentMotionRotateColour))
     }
 }

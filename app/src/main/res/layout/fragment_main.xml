@@ -10,11 +10,14 @@
             android:id="@+id/btn_simple_motion" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="16dp"
             app:layout_constraintTop_toTopOf="parent"/>
+
     <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/motion_two" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/btn_simple_motion"
-            app:layout_constraintStart_toStartOf="@+id/btn_simple_motion" app:layout_constraintEnd_toEndOf="@+id/btn_simple_motion"/>
+        android:id="@+id/btn_rotate_motion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/rotate_color_motion"
+        app:layout_constraintEnd_toEndOf="@+id/btn_simple_motion"
+        app:layout_constraintStart_toStartOf="@+id/btn_simple_motion"
+        app:layout_constraintTop_toBottomOf="@+id/btn_simple_motion" />
 </androidx.constraintlayout.widget.ConstraintLayout>

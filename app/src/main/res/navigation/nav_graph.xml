@@ -10,10 +10,17 @@
         android:name="com.example.alex.motionlayoutsharing.MainFragment"
         android:label="MainFragment" >
         <action android:id="@+id/action_mainFragment_to_left_right_motion" app:destination="@id/left_right_motion"/>
+        <action
+            android:id="@+id/action_mainFragment_to_fragmentMotionRotateColour"
+            app:destination="@id/fragmentMotionRotateColour" />
     </fragment>
     <fragment
         android:id="@+id/left_right_motion"
         android:name="com.example.alex.motionlayoutsharing.FragmentSimpleMotion"
         android:label="fragment_left_right_motion"
         tools:layout="@layout/fragment_simple_motion" />
+    <fragment
+        android:id="@+id/fragmentMotionRotateColour"
+        android:name="com.example.alex.motionlayoutsharing.FragmentMotionRotateColour"
+        android:label="FragmentMotionRotateColour" />
 </navigation>
