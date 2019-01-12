@@ -38,5 +38,9 @@ class MainFragment : Fragment() {
             Navigation
                 .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentCoordinatorMotion)
         )
+        btn_pager.setOnClickListener(
+            Navigation
+                .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentViewPager)
+        )
     }
 }

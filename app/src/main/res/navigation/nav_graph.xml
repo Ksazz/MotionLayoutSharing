@@ -22,26 +22,29 @@
         <action
             android:id="@+id/action_mainFragment_to_fragmentCoordinatorMotion"
             app:destination="@id/fragmentCoordinatorMotion" />
+        <action android:id="@+id/action_mainFragment_to_fragmentViewPager" app:destination="@id/fragmentViewPager"/>
     </fragment>
     <fragment
         android:id="@+id/left_right_motion"
-        android:name="com.example.alex.motionlayoutsharing.FragmentSimpleMotion"
+        android:name="com.example.alex.motionlayoutsharing.simplemotion.FragmentSimpleMotion"
         android:label="fragment_left_right_motion"
         tools:layout="@layout/fragment_simple_motion" />
     <fragment
         android:id="@+id/fragmentMotionRotateColour"
-        android:name="com.example.alex.motionlayoutsharing.FragmentMotionRotateColour"
+        android:name="com.example.alex.motionlayoutsharing.rotatecolor.FragmentMotionRotateColour"
         android:label="FragmentMotionRotateColour" />
     <fragment
         android:id="@+id/fragmentImageFilter"
-        android:name="com.example.alex.motionlayoutsharing.FragmentImageFilter"
+        android:name="com.example.alex.motionlayoutsharing.imagefilter.FragmentImageFilter"
         android:label="FragmentImageFilter" />
     <fragment
         android:id="@+id/fragmentKeyFrames"
-        android:name="com.example.alex.motionlayoutsharing.FragmentKeyFrames"
+        android:name="com.example.alex.motionlayoutsharing.keyframes.FragmentKeyFrames"
         android:label="FragmentKeyFrames" />
     <fragment
         android:id="@+id/fragmentCoordinatorMotion"
-        android:name="com.example.alex.motionlayoutsharing.FragmentCoordinatorMotion"
+        android:name="com.example.alex.motionlayoutsharing.coordinator.FragmentCoordinatorMotion"
         android:label="FragmentCoordinatorMotion" />
+    <fragment android:id="@+id/fragmentViewPager" android:name="com.example.alex.motionlayoutsharing.viewpager.FragmentViewPager"
+              android:label="FragmentViewPager"/>
 </navigation>

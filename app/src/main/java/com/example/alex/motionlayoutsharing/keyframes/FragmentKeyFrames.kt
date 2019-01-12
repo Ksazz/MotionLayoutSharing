@@ -1,14 +1,15 @@
-package com.example.alex.motionlayoutsharing
+package com.example.alex.motionlayoutsharing.keyframes
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.alex.motionlayoutsharing.R
 
-class FragmentMotionRotateColour : Fragment() {
+class FragmentKeyFrames : Fragment() {
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_motion_rotate_colour, container, false)
+        return inflater.inflate(R.layout.fragment_key_frames, container, false)
     }
-
 }
