@@ -1,7 +1,7 @@
 package com.example.alex.motionlayoutsharing
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 
 class MainActivity : AppCompatActivity() {
