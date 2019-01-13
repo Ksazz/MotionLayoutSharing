@@ -8,6 +8,9 @@
     <string name="pager">view pager</string>
     <string name="menu">menu</string>
     <string name="switch_buttons">switch buttons</string>
+    <string name="motion">motion</string>
+    <string name="layout">layout</string>
+
 
     <string name="left">left</string>
     <string name="right">right</string>
