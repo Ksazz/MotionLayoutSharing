@@ -24,6 +24,8 @@
             app:destination="@id/fragmentCoordinatorMotion" />
         <action android:id="@+id/action_mainFragment_to_fragmentViewPager" app:destination="@id/fragmentViewPager"/>
         <action android:id="@+id/action_mainFragment_to_fragmentMenuMotion" app:destination="@id/fragmentMenuMotion"/>
+        <action android:id="@+id/action_mainFragment_to_fragmentSwitchButtons"
+                app:destination="@id/fragmentSwitchButtons"/>
     </fragment>
     <fragment
         android:id="@+id/left_right_motion"
@@ -51,4 +53,7 @@
     <fragment android:id="@+id/fragmentMenuMotion"
               android:name="com.example.alex.motionlayoutsharing.menumotion.FragmentMenuMotion"
               android:label="fragment_menu_motion" tools:layout="@layout/fragment_menu_motion"/>
+    <fragment android:id="@+id/fragmentSwitchButtons"
+              android:name="com.example.alex.motionlayoutsharing.switchbuttons.FragmentSwitchButtons"
+              android:label="FragmentSwitchButtons"/>
 </navigation>

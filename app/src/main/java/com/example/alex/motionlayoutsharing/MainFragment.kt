@@ -34,6 +34,10 @@ class MainFragment : Fragment() {
             Navigation
                 .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentKeyFrames)
         )
+        btn_switch.setOnClickListener(
+            Navigation
+                .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentSwitchButtons)
+        )
         btn_coordinator.setOnClickListener(
             Navigation
                 .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentCoordinatorMotion)
@@ -46,5 +50,6 @@ class MainFragment : Fragment() {
             Navigation
                 .createNavigateOnClickListener(R.id.action_mainFragment_to_fragmentMenuMotion)
         )
+
     }
 }

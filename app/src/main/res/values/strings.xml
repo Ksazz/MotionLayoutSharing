@@ -7,7 +7,10 @@
     <string name="coordinator">coordinator</string>
     <string name="pager">view pager</string>
     <string name="menu">menu</string>
+    <string name="switch_buttons">switch buttons</string>
 
+    <string name="left">left</string>
+    <string name="right">right</string>
 
     <string name="pager_one_text">page one</string>
     <string name="pager_two_text">page two</string>
@@ -26,7 +29,4 @@
         backward compatibility and is updated more frequently than the Android platform, making sure you always have
         access to the latest and greatest versions of the Jetpack components.
     </string>
-
-    <string name="back_text">BACKGROUND</string>
-
 </resources>

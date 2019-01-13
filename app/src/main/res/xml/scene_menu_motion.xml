@@ -25,7 +25,6 @@
                 android:layout_height="@dimen/size_big_s"
                 android:alpha="0"
                 android:rotation="-45"
-                android:visibility="gone"
                 motion:layout_constraintBottom_toBottomOf="@id/motion_plus_view"
                 motion:layout_constraintEnd_toEndOf="@id/motion_plus_view"
                 motion:layout_constraintStart_toStartOf="@id/motion_plus_view"
@@ -36,7 +35,6 @@
                 android:layout_width="@dimen/size_big_s"
                 android:layout_height="@dimen/size_big_s"
                 android:alpha="0"
-                android:visibility="gone"
                 motion:layout_constraintBottom_toBottomOf="@id/motion_plus_view"
                 motion:layout_constraintEnd_toEndOf="@id/motion_plus_view"
                 motion:layout_constraintStart_toStartOf="@id/motion_plus_view"
@@ -48,7 +46,6 @@
                 android:layout_height="@dimen/size_big_s"
                 android:alpha="0"
                 android:rotation="45"
-                android:visibility="gone"
                 motion:layout_constraintBottom_toBottomOf="@id/motion_plus_view"
                 motion:layout_constraintEnd_toEndOf="@id/motion_plus_view"
                 motion:layout_constraintStart_toStartOf="@id/motion_plus_view"
@@ -94,8 +91,6 @@
                 android:layout_width="@dimen/size_big_s"
                 android:layout_height="@dimen/size_big_s"
                 android:alpha="1"
-                android:visibility="visible"
-
                 motion:layout_constraintCircle="@id/motion_plus_view"
                 motion:layout_constraintCircleAngle="240"
                 motion:layout_constraintCircleRadius="80dp"/>
@@ -105,7 +100,6 @@
                 android:layout_width="@dimen/size_big_s"
                 android:layout_height="@dimen/size_big_s"
                 android:alpha="1"
-                android:visibility="visible"
                 motion:layout_constraintCircle="@id/motion_plus_view"
                 motion:layout_constraintCircleAngle="0"
                 motion:layout_constraintCircleRadius="80dp"/>
@@ -115,7 +109,6 @@
                 android:layout_width="@dimen/size_big_s"
                 android:layout_height="@dimen/size_big_s"
                 android:alpha="1"
-                android:visibility="visible"
                 motion:layout_constraintCircle="@id/motion_plus_view"
                 motion:layout_constraintCircleAngle="300"
                 motion:layout_constraintCircleRadius="80dp"/>
@@ -141,8 +134,6 @@
                 motion:layout_constraintEnd_toEndOf="@id/top_view"
                 motion:layout_constraintStart_toStartOf="@id/top_view"
                 motion:layout_constraintTop_toTopOf="@id/top_view"/>
-
-
     </ConstraintSet>
 
 </MotionScene>
